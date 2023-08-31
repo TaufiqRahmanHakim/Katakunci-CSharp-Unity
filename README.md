@@ -2,48 +2,49 @@
 Rangkuman Keywords in Object-Oriented Programming
 
 # Access Modifiers
-public: Bisa diakses dari mana saja.
 
-private: Hanya bisa diakses dari dalam class itu sendiri.
+public: Semua orang bisa akses.
 
-protected: Bisa diakses dari dalam class itu sendiri dan class turunannya.
+private: Cuma bisa diakses di dalam class sendiri.
 
-internal: Bisa diakses dari dalam assembly yang sama.
+protected: Diakses di class sendiri dan 'anak' class-nya.
+
+internal: Diakses di program yang sama.
 
 # Storage Modifiers
 
-static: Milik dari class, bukan dari instance dari class tersebut.
+static: Milik class, bukan milik 'anak' class.
 
-const: Variabel yang nilainya tidak bisa diubah setelah diinisialisasi.
+const: Nilainya tetap, ga bisa diubah.
 
-readonly: Mirip dengan const, tapi bisa diinisialisasi di konstruktor.
+readonly: Mirip const, tapi bisa di-set di awal.
 
-# Polymorphism-related Keywords
+# Kata Kunci untuk Pewarisan & Polimorfisme
 
-virtual: Bisa di-override di class turunan.
+virtual: Bisa diubah di 'anak' class.
 
-override: Mengganti implementasi method yang virtual di class induk.
+override: Mengubah fungsi dari 'orang tua' class.
 
-abstract: Tidak bisa diinstansiasi dan biasanya memiliki method yang harus diimplementasi di class turunan.
+abstract: Class yang ga bisa dibuat sendiri, harus diwariskan dulu.
 
-sealed: Tidak bisa diwariskan.
+sealed: Class yang ga bisa diwarisi lagi.
 
 # Lain-lain
 
-new: Menyembunyikan method/property dari class induk.
+new: Buat versi baru dari fungsi atau variabel.
 
-base: Memanggil konstruktor atau method dari class induk.
+base: Panggil fungsi dari 'orang tua' class.
 
-this: Referensi ke instance dari class saat ini.
+this: Ngerefrens ke objek saat ini.
 
-params: Menerima jumlah argumen yang variatif di method.
+params: Bisa terima banyak input.
 
-ref, out: Passing variabel sebagai referensi.
+ref, out: Kirim variabel sebagai referensi.
 
-interface: Menentukan kontrak untuk class yang mengimplementasikannya.
+interface: Seperti 'kontrak' untuk class lain.
 
-enum: Mendefinisikan set konstan.
+enum: Kumpulan nilai konstan.
 
-delegate: Tipe yang menyimpan referensi ke sebuah method.
+delegate: Simpan fungsi untuk dipanggil nanti.
 
-event: Mendefinisikan event yang bisa di-subscribe.
+event: Seperti alarm untuk kode lain.
