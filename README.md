@@ -1,50 +1,37 @@
-# Katakunci-CSharp-Unity
-Rangkuman Keywords in Object-Oriented Programming
+# Rangkuman Kata Kunci C# dalam Pemrograman Berorientasi Objek
 
-# Access Modifiers
+Berikut adalah rangkuman dari beberapa kata kunci C# yang penting dalam pemrograman berorientasi objek.
 
-public: Semua orang bisa akses.
+## Access Modifiers
 
-private: Cuma bisa diakses di dalam class sendiri.
+- **public**: Dapat diakses oleh semua orang.
+- **private**: Hanya dapat diakses di dalam kelas itu sendiri.
+- **protected**: Dapat diakses di dalam kelas itu sendiri dan kelas 'anak'nya.
+- **internal**: Dapat diakses di dalam program yang sama.
 
-protected: Diakses di class sendiri dan 'anak' class-nya.
+## Storage Modifiers
 
-internal: Diakses di program yang sama.
+- **static**: Milik kelas, bukan milik kelas 'anak'.
+- **const**: Nilainya tetap dan tidak dapat diubah.
+- **readonly**: Mirip dengan const, tetapi dapat diatur di awal.
 
-# Storage Modifiers
+## Kata Kunci untuk Pewarisan & Polimorfisme
 
-static: Milik class, bukan milik 'anak' class.
+- **virtual**: Dapat diubah di kelas 'anak'.
+- **override**: Mengubah implementasi dari fungsi di kelas 'induk'.
+- **abstract**: Kelas yang tidak dapat diinstansiasi sendiri, harus diwariskan terlebih dahulu.
+- **sealed**: Kelas yang tidak dapat diwariskan lagi.
 
-const: Nilainya tetap, ga bisa diubah.
+## Lain-lain
 
-readonly: Mirip const, tapi bisa di-set di awal.
+- **new**: Membuat versi baru dari fungsi atau variabel.
+- **base**: Memanggil fungsi dari kelas 'induk'.
+- **this**: Merujuk ke objek saat ini.
+- **params**: Menerima banyak argumen.
+- **ref**, **out**: Mengirim variabel sebagai referensi.
+- **interface**: Mirip 'kontrak' untuk kelas lain.
+- **enum**: Kumpulan nilai konstan.
+- **delegate**: Menyimpan fungsi untuk dipanggil nanti.
+- **event**: Mirip alarm untuk kode lain.
 
-# Kata Kunci untuk Pewarisan & Polimorfisme
-
-virtual: Bisa diubah di 'anak' class.
-
-override: Mengubah fungsi dari 'orang tua' class.
-
-abstract: Class yang ga bisa dibuat sendiri, harus diwariskan dulu.
-
-sealed: Class yang ga bisa diwarisi lagi.
-
-# Lain-lain
-
-new: Buat versi baru dari fungsi atau variabel.
-
-base: Panggil fungsi dari 'orang tua' class.
-
-this: Ngerefrens ke objek saat ini.
-
-params: Bisa terima banyak input.
-
-ref, out: Kirim variabel sebagai referensi.
-
-interface: Seperti 'kontrak' untuk class lain.
-
-enum: Kumpulan nilai konstan.
-
-delegate: Simpan fungsi untuk dipanggil nanti.
-
-event: Seperti alarm untuk kode lain.
+Silakan gunakan kata kunci-kata kunci ini dengan bijak dalam pemrograman Anda untuk membangun solusi yang lebih efisien dan fleksibel.
