@@ -33,5 +33,3 @@ Berikut adalah rangkuman dari beberapa kata kunci C# yang penting dalam pemrogra
 - **enum**: Kumpulan nilai konstan.
 - **delegate**: Menyimpan fungsi untuk dipanggil nanti.
 - **event**: Mirip alarm untuk kode lain.
-
-Silakan gunakan kata kunci-kata kunci ini dengan bijak dalam pemrograman Anda untuk membangun solusi yang lebih efisien dan fleksibel.
