@@ -66,3 +66,12 @@ Coroutine : Digunakan untuk eksekusi kode yang bisa 'pause' dan 'resume', sangat
 - **Quaternion.Set**: Menentukan rotasi dengan angka-angka spesifik.
 - **Quaternion.SetFromToRotation**: Sama seperti FromToRotation, tapi langsung mengubah rotasi objek.
 - **Quaternion.SetLookRotation**: Sama seperti LookRotation, tapi langsung mengubah rotasi objek.
+
+## Kata Kunci dan Fungsi yang Mendukung Quartenion:
+- **Random.Range**: Menghasilkan angka acak antara dua angka. Misalnya, untuk mendapatkan angka antara 1 dan 10.
+- **Random.value**: Menghasilkan angka float acak antara 0 dan 1. Bisa digunakan untuk probabilitas.
+- **Random.ColorHSV**: Menghasilkan warna acak dalam format HSV.
+- **Random.InitState**: Mengatur "seed" untuk generator angka acak, sehingga kamu bisa mendapatkan urutan angka acak yang sama setiap kali.
+- **Random.insideUnitCircle**: Menghasilkan titik acak dalam lingkaran dengan radius 1.
+- **Random.insideUnitSphere**: Menghasilkan titik acak dalam bola dengan radius 1.
+- **Random.onUnitSphere**: Menghasilkan titik acak di permukaan bola dengan radius 1.
