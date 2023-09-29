@@ -51,3 +51,18 @@ Coroutine : Digunakan untuk eksekusi kode yang bisa 'pause' dan 'resume', sangat
 - **OnEnable/OnDisable**: Kadang digunakan untuk memulai atau menghentikan Coroutine ketika GameObject diaktifkan atau dinonaktifkan.
 - **IEnumerator**: Tipe data yang harus kamu gunakan untuk mendefinisikan Coroutine.
 - **yield break**: Mengakhiri Coroutine sebelum ia selesai.
+
+
+## Kata Kunci dan Fungsi yang Mendukung Quartenion:
+Quaternion.Angle: Mengukur seberapa "jauh" antara dua posisi rotasi.
+Quaternion.AngleAxis: Membuat putaran berdasarkan sumbu (misalnya, sumbu Y) dan sudut (misalnya, 90 derajat).
+Quaternion.Euler: Membuat rotasi dari sudut-sudut yang biasa kita kenal, seperti memiringkan kepala ke atas atau ke bawah.
+Quaternion.FromToRotation: Membuat rotasi yang mengubah arah satu objek ke arah objek lain.
+Quaternion.Inverse: Membalik rotasi. Misalnya, jika objek terbalik, ini akan membalikkannya kembali.
+Quaternion.Lerp: Menggabungkan dua rotasi dengan cara yang lebih "kasar" atau cepat.
+Quaternion.Slerp: Menggabungkan dua rotasi dengan cara yang lebih "halus" atau akurat.
+Quaternion.LookRotation: Membuat objek "melihat" ke arah tertentu, seperti kamera mengikuti karakter.
+Quaternion.RotateTowards: Memutar objek ke arah tertentu dengan kecepatan yang bisa diatur.
+Quaternion.Set: Menentukan rotasi dengan angka-angka spesifik.
+Quaternion.SetFromToRotation: Sama seperti FromToRotation, tapi langsung mengubah rotasi objek.
+Quaternion.SetLookRotation: Sama seperti LookRotation, tapi langsung mengubah rotasi objek.
