@@ -67,7 +67,7 @@ Coroutine : Digunakan untuk eksekusi kode yang bisa 'pause' dan 'resume', sangat
 - **Quaternion.SetFromToRotation**: Sama seperti FromToRotation, tapi langsung mengubah rotasi objek.
 - **Quaternion.SetLookRotation**: Sama seperti LookRotation, tapi langsung mengubah rotasi objek.
 
-## Kata Kunci dan Fungsi yang Mendukung Quartenion:
+## Kata Kunci dan Fungsi yang Mendukung Random:
 - **Random.Range**: Menghasilkan angka acak antara dua angka. Misalnya, untuk mendapatkan angka antara 1 dan 10.
 - **Random.value**: Menghasilkan angka float acak antara 0 dan 1. Bisa digunakan untuk probabilitas.
 - **Random.ColorHSV**: Menghasilkan warna acak dalam format HSV.
@@ -75,3 +75,16 @@ Coroutine : Digunakan untuk eksekusi kode yang bisa 'pause' dan 'resume', sangat
 - **Random.insideUnitCircle**: Menghasilkan titik acak dalam lingkaran dengan radius 1.
 - **Random.insideUnitSphere**: Menghasilkan titik acak dalam bola dengan radius 1.
 - **Random.onUnitSphere**: Menghasilkan titik acak di permukaan bola dengan radius 1.
+
+## Kata Kunci dan Fungsi yang Mendukung Raycast:
+Physics.Raycast: Metode utama untuk melakukan raycasting. Ini akan mengirimkan "ray" (sinar) dan memberi tahu kamu apakah sinar tersebut mengenai sesuatu.
+
+Physics.RaycastAll: Mirip dengan Raycast, tapi ini akan mengembalikan semua objek yang terkena sinar.
+
+Physics.SphereCast: Seperti Raycast, tapi menggunakan bola, bukan sinar. Berguna untuk deteksi yang lebih luas.
+
+Physics.BoxCast: Seperti Raycast, tapi menggunakan kotak.
+
+Physics.CapsuleCast: Seperti Raycast, tapi menggunakan kapsul.
+
+Physics.RaycastNonAlloc: Versi lebih efisien dari Raycast yang tidak mengalokasikan memori baru.
