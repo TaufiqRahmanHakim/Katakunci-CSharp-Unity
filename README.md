@@ -33,3 +33,21 @@ Berikut adalah rangkuman dari beberapa kata kunci C# yang penting dalam pemrogra
 - **enum**: Kumpulan nilai konstan.
 - **delegate**: Menyimpan fungsi untuk dipanggil nanti.
 - **event**: Mirip alarm untuk kode lain.
+
+
+Instantiate : digunakan untuk membuat salinan dari suatu objek yang sudah ada. Ini bisa berupa GameObject, prefab, atau komponen lainnya.
+Quaternion : berurusan dengan rotasi
+Coroutine : Digunakan untuk eksekusi kode yang bisa 'pause' dan 'resume', sangat berguna untuk timing dalam animasi.
+
+## Kata Kunci dan Fungsi yang Mendukung IEnumerator:
+- **yield return null**: Menunda eksekusi sampai frame berikutnya.
+- **yield return new WaitForSeconds(x)**: Menunda eksekusi selama x detik.
+- **yield return StartCoroutine(anotherCoroutine())**: Menunggu sampai Coroutine lain selesai dijalankan.
+- **StartCoroutine**: Fungsi untuk memulai Coroutine.
+- **StopCoroutine**: Fungsi untuk menghentikan Coroutine.
+- **StopAllCoroutines**: Fungsi untuk menghentikan semua Coroutine yang berjalan pada GameObject tersebut.
+- **WaitForEndOfFrame**: Menunda eksekusi sampai semua rendering dan update selesai.
+- **WaitForFixedUpdate**: Menunda eksekusi sampai FixedUpdate berikutnya dijalankan.
+- **OnEnable/OnDisable**: Kadang digunakan untuk memulai atau menghentikan Coroutine ketika GameObject diaktifkan atau dinonaktifkan.
+- **IEnumerator**: Tipe data yang harus kamu gunakan untuk mendefinisikan Coroutine.
+- **yield break**: Mengakhiri Coroutine sebelum ia selesai.
