@@ -33,11 +33,9 @@ Berikut adalah rangkuman dari beberapa kata kunci C# yang penting dalam pemrogra
 - **enum**: Kumpulan nilai konstan.
 - **delegate**: Menyimpan fungsi untuk dipanggil nanti.
 - **event**: Mirip alarm untuk kode lain.
-
-
-Instantiate : digunakan untuk membuat salinan dari suatu objek yang sudah ada. Ini bisa berupa GameObject, prefab, atau komponen lainnya.
-Quaternion : berurusan dengan rotasi
-Coroutine : Digunakan untuk eksekusi kode yang bisa 'pause' dan 'resume', sangat berguna untuk timing dalam animasi.
+- **Instantiate** : digunakan untuk membuat salinan dari suatu objek yang sudah ada. Ini bisa berupa GameObject, prefab, atau komponen lainnya.
+- **Quaternion** : berurusan dengan rotasi
+- **Coroutine** : Digunakan untuk eksekusi kode yang bisa 'pause' dan 'resume', sangat berguna untuk timing dalam animasi.
 
 ## Kata Kunci dan Fungsi yang Mendukung IEnumerator:
 - **yield return null**: Menunda eksekusi sampai frame berikutnya.
@@ -77,14 +75,9 @@ Coroutine : Digunakan untuk eksekusi kode yang bisa 'pause' dan 'resume', sangat
 - **Random.onUnitSphere**: Menghasilkan titik acak di permukaan bola dengan radius 1.
 
 ## Kata Kunci dan Fungsi yang Mendukung Raycast:
-Physics.Raycast: Metode utama untuk melakukan raycasting. Ini akan mengirimkan "ray" (sinar) dan memberi tahu kamu apakah sinar tersebut mengenai sesuatu.
-
-Physics.RaycastAll: Mirip dengan Raycast, tapi ini akan mengembalikan semua objek yang terkena sinar.
-
-Physics.SphereCast: Seperti Raycast, tapi menggunakan bola, bukan sinar. Berguna untuk deteksi yang lebih luas.
-
-Physics.BoxCast: Seperti Raycast, tapi menggunakan kotak.
-
-Physics.CapsuleCast: Seperti Raycast, tapi menggunakan kapsul.
-
-Physics.RaycastNonAlloc: Versi lebih efisien dari Raycast yang tidak mengalokasikan memori baru.
+- **Physics.Raycast**: Metode utama untuk melakukan raycasting. Ini akan mengirimkan "ray" (sinar) dan memberi tahu kamu apakah sinar tersebut mengenai sesuatu.
+- **Physics.RaycastAll**: Mirip dengan Raycast, tapi ini akan mengembalikan semua objek yang terkena sinar.
+- **Physics.SphereCast**: Seperti Raycast, tapi menggunakan bola, bukan sinar. Berguna untuk deteksi yang lebih luas.
+- **Physics.BoxCast**: Seperti Raycast, tapi menggunakan kotak.
+- **Physics.CapsuleCast**: Seperti Raycast, tapi menggunakan kapsul.
+- **Physics.RaycastNonAlloc**: Versi lebih efisien dari Raycast yang tidak mengalokasikan memori baru.
